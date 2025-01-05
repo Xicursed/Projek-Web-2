@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+td {
+  text-align: left;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +30,23 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.btnDelete {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnUpdate {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 3px;
 }
 
 @keyframes App-logo-spin {
